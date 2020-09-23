@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale:1}
+@-ms-viewport { width: device-width; scale:1}
+@-o-viewport { width: device-width; scale:1}
+@-webkit-viewport { width: device-width; scale:1}
+@viewport { width: device-width; scale:1}
+
 html {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
@@ -24,4 +30,9 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
 }
