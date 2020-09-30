@@ -132,12 +132,20 @@ footer {
   text-align: center;
 }
 
+@media only screen and (min-width: 38em) {
 
-@media only screen and (min-width: 60em) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    justify-content: space-around;
+  }
 
-  header {
+  .header-grid {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-areas: "title nav";
+    margin-bottom: 1rem;
+    align-items: center;
   }
 
 }
