@@ -115,6 +115,11 @@ ul {
   margin: 1em;
 }
 
+hr {
+  border: 1.5px solid #e2e2e2;
+  width: 100%;
+}
+
 .intro {
   margin: 0;
 }
