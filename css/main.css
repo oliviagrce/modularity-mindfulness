@@ -148,4 +148,22 @@ footer {
     align-items: center;
   }
 
+  .h1-h2 {
+    grid-area: title;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+
+  .banner-content {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
